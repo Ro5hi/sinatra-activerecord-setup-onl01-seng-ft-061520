@@ -1,4 +1,4 @@
-class CreateDogs < ActiveRecord::Migration[4.1]
+class CreateDogs < ActiveRecord::Migration[5.1]
   
   def up
     create_table :dogs do |t|
